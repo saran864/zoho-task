@@ -1,0 +1,8 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+# The primary network interface
+auto eth0
+iface eth0 inet static
+netmask 255.0.0.0
+dns-nameservers 127.0.0.1
